@@ -1,0 +1,64 @@
+body {
+    font-family: Arial;
+    background-color: #f2f4f8;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+.container {
+    background: white;
+    width: 350px;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 10px #ccc;
+}
+
+h1 {
+    color: #333;
+}
+
+input {
+    padding: 10px;
+    width: 60%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    background: #6c63ff;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    background: #f2f2f2;
+    margin-top: 12px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+
+.complete {
+    background: green;
+}
+
+.delete {
+    background: red;
+}
+
+.done {
+    text-decoration: line-through;
+    color: gray;
+}
